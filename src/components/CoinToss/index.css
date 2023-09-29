@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.options-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.coin-image {
+  width: 150px;
+  height: 150px;
+}
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+  padding: 3px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+.counts {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  width: 100px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
